@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,12 +12,10 @@ import {
   ThumbsUp,
   CheckCircle,
   Clock,
-  User,
   Calendar,
   Eye,
   Download,
   Share,
-  Sparkles,
   AlertCircle,
   Send
 } from "lucide-react";
@@ -214,10 +212,10 @@ export default function ClientReviewPage() {
                 <div className="relative">
                   <ul className="space-y-3">
                     <li className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                      <span className="text-gray-700 font-medium">"Revolutionary smartwatch technology that fits your lifestyle"</span>
+                      <span className="text-gray-700 font-medium">&ldquo;Revolutionary smartwatch technology that fits your lifestyle&rdquo;</span>
                     </li>
                     <li className="bg-blue-50 p-3 rounded-lg border-l-4 border-blue-500">
-                      <span className="text-gray-700 font-medium">"Advanced health tracking meets seamless connectivity"</span>
+                      <span className="text-gray-700 font-medium">&ldquo;Advanced health tracking meets seamless connectivity&rdquo;</span>
                     </li>
                   </ul>
                   <div className="absolute -right-2 top-4">

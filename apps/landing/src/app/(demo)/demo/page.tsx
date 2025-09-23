@@ -249,7 +249,7 @@ export default function DemoPage() {
                     <Plus className="h-8 w-8 text-white" />
                   </div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-2">Create New Brief</h3>
-                  <p className="text-gray-600 mb-6">Transform your client's messy inputs into a polished brief with AI</p>
+                  <p className="text-gray-600 mb-6">Transform your client&apos;s messy inputs into a polished brief with AI</p>
                   <Link href="/demo/brief">
                     <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700">
                       Start Brief Creation

@@ -11,7 +11,6 @@ import {
   Share,
   Copy,
   FileText,
-  Mail,
   Calendar,
   Smartphone,
   Monitor,
@@ -29,8 +28,8 @@ import {
 import Link from "next/link";
 
 export default function ExportPage() {
-  const [selectedFormat, setSelectedFormat] = useState("pdf");
-  const [selectedIntegration, setSelectedIntegration] = useState(null);
+  const [selectedFormat] = useState("pdf");
+  const [selectedIntegration, setSelectedIntegration] = useState<string | null>(null);
   const [exportStatus, setExportStatus] = useState("ready");
 
   const exportFormats = [
@@ -121,7 +120,7 @@ export default function ExportPage() {
     }, 2000);
   };
 
-  const handleIntegration = (integration: any) => {
+  const handleIntegration = (integration: {id: string; name: string; description: string; icon: string; color: string; features: string[]}) => {
     setSelectedIntegration(integration.id);
     setTimeout(() => {
       alert(`Successfully integrated with ${integration.name}!`);
@@ -369,7 +368,7 @@ export default function ExportPage() {
                 <div className="text-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-4">🎉 Demo Complete!</h3>
                   <p className="text-gray-600 mb-6">
-                    You've experienced the full BriefForce workflow from messy client inputs to polished, approved briefs.
+                    You&apos;ve experienced the full BriefForce workflow from messy client inputs to polished, approved briefs.
                   </p>
                   
                   <div className="grid grid-cols-2 gap-4 mb-6 text-sm">
