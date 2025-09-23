@@ -280,7 +280,7 @@ export default function BriefPreviewPage() {
         return <Palette className={iconClass} />;
     }
   };
-  const [availableSections, setAvailableSections] = useState([
+  const [availableSections] = useState([
     { id: 'timeline', name: 'Timeline & Milestones', description: 'Project schedule and key milestones' },
     { id: 'approval', name: 'Approval Workflow', description: 'Review and approval process' },
     { id: 'riskAssessment', name: 'Risk Assessment', description: 'Project risks and mitigation strategies' },
@@ -660,7 +660,7 @@ export default function BriefPreviewPage() {
     setEditingSection(section);
   };
 
-  const handleSave = (section: string) => {
+  const handleSave = (_section: string) => {
     setEditingSection(null);
   };
 
@@ -1418,7 +1418,7 @@ export default function BriefPreviewPage() {
                     <ul className="space-y-3">
                       {briefData.keyMessages.map((message, index) => (
                         <li key={index} className={`bg-${getSectionColors('messages').secondary} p-3 rounded-lg border-l-4 ${getSectionColors('messages').border} hover:shadow-sm transition-shadow duration-200`}>
-                          <span className="text-gray-700 font-medium">"{message}"</span>
+                          <span className="text-gray-700 font-medium">&ldquo;{message}&rdquo;</span>
                         </li>
                       ))}
                     </ul>

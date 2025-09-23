@@ -9,7 +9,6 @@ import { motion } from "framer-motion";
 import { 
   ArrowLeft,
   CheckCircle,
-  Clock,
   FileSearch,
   Shield,
   Brain,

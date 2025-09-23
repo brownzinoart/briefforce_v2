@@ -15,9 +15,6 @@ import {
   BarChart3,
   Users,
   FileText,
-  Star,
-  TrendingUp,
-  Shield,
   PlayCircle
 } from "lucide-react";
 
@@ -345,7 +342,7 @@ export default function Home() {
               Simple, Transparent Pricing
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Choose the plan that fits your agency's needs. All plans include unlimited revisions and 24/7 support.
+              Choose the plan that fits your agency&apos;s needs. All plans include unlimited revisions and 24/7 support.
             </p>
           </motion.div>
 
@@ -624,23 +621,23 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h3 className="text-lg font-semibold text-gray-900 mb-6">Sources & Research</h3>
           <div className="text-sm text-gray-600 space-y-2">
-            <p><strong>[1]</strong> "Got Bad Briefing Habits? Here's How Admation Helps You Brief Better." <em>Simple Marketing Blog</em>, Simple.io, 2024. 
+            <p><strong>[1]</strong> &ldquo;Got Bad Briefing Habits? Here&apos;s How Admation Helps You Brief Better.&rdquo; <em>Simple Marketing Blog</em>, Simple.io, 2024. 
               <a href="https://www.simple.io/blog/got-bad-briefing-habits-heres-how-admation-helps-you-brief-better" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
                 View Source
               </a>
             </p>
-            <p><strong>[2]</strong> "The State of MLR Review Efficiency: Trends & Best Practices." <em>Aqurance</em>, March 2025. 
+            <p><strong>[2]</strong> &ldquo;The State of MLR Review Efficiency: Trends & Best Practices.&rdquo; <em>Aqurance</em>, March 2025. 
               <a href="https://www.aqurance.com/the-state-of-mlr-review-efficiency-trends-best-practices" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
                 View Source
               </a>
             </p>
-            <p><strong>[3]</strong> "AI in Pharma Marketing: meaning, strategy and best practices." <em>Anthill Agency</em>, 2024. 
+            <p><strong>[3]</strong> &ldquo;AI in Pharma Marketing: meaning, strategy and best practices.&rdquo; <em>Anthill Agency</em>, 2024. 
               <a href="https://www.anthillagency.com/ai-in-pharma-marketing-guide" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ml-1">
                 View Source
               </a>
             </p>
-            <p><strong>[4]</strong> "AI in Pharma Marketing: meaning, strategy and best practices." <em>Anthill Agency</em>, 2024. Revenue impact from effective content creation and reuse.</p>
-            <p><strong>[5]</strong> "AI in Pharma Marketing: meaning, strategy and best practices." <em>Anthill Agency</em>, 2024. External agency spend reduction through automation.</p>
+            <p><strong>[4]</strong> &ldquo;AI in Pharma Marketing: meaning, strategy and best practices.&rdquo; <em>Anthill Agency</em>, 2024. Revenue impact from effective content creation and reuse.</p>
+            <p><strong>[5]</strong> &ldquo;AI in Pharma Marketing: meaning, strategy and best practices.&rdquo; <em>Anthill Agency</em>, 2024. External agency spend reduction through automation.</p>
             <p className="pt-4 border-t border-gray-200 mt-6"><strong>*Methodology:</strong> Annual impact calculation based on combining industry research statistics applied to typical $10M pharma marketing budget. Individual results may vary.</p>
           </div>
         </div>

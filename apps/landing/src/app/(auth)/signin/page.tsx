@@ -16,7 +16,7 @@ export default function SignInPage() {
           <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
             BriefForce
           </Link>
-          <p className="text-gray-600 mt-2">Choose how you'd like to experience BriefForce</p>
+          <p className="text-gray-600 mt-2">Choose how you&apos;d like to experience BriefForce</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -120,7 +120,7 @@ export default function SignInPage() {
                     <a href="#" className="text-blue-600 hover:underline">Forgot password?</a>
                   </p>
                   <p>
-                    Don't have an account? <a href="#" className="text-blue-600 hover:underline">Start free trial</a>
+                    Don&apos;t have an account? <a href="#" className="text-blue-600 hover:underline">Start free trial</a>
                   </p>
                 </div>
               </div>
